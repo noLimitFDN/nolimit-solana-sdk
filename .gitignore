@@ -1,0 +1,55 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build
+dist/
+build/
+*.tsbuildinfo
+target/
+
+# Test
+coverage/
+.nyc_output/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.egg-info/
+venv/
+.venv/
+
+# Rust
+target/
+Cargo.lock
+**/*.rs.bk
+
+# Anchor
+.anchor/
+programs/**/target/
+
+# Misc
+*.tgz
+.cache/
+test-ledger/
+
