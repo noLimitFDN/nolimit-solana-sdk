@@ -24,3 +24,4 @@ export interface ChatResponse {
   paymentSignature?: string;
 }
 
+// msg
