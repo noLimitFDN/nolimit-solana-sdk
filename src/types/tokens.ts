@@ -35,3 +35,4 @@ export const TOKEN_CONFIGS: Record<SupportedToken, TokenConfig> = {
 export const NATIVE_SOL = 'So11111111111111111111111111111111111111112';
 export const USDC_MINT = 'EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v';
 
+// mint
