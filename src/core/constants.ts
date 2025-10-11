@@ -46,3 +46,4 @@ export const JUPITER_API = 'https://lite-api.jup.ag/swap/v1';
 // x402 Facilitator
 export const FACILITATOR_URL = 'https://facilitator.payai.network';
 
+// jupiter
