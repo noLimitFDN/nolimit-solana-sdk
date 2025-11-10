@@ -1,0 +1,37 @@
+[package]
+name = "nolimit-solana"
+version = "0.1.0"
+edition = "2021"
+description = "noLimit Solana SDK - Privacy-first AI, Swap, and Mixer"
+authors = ["noLimit Foundation <dev@nolimit.foundation>"]
+license = "MIT"
+repository = "https://github.com/noLimitFDN/nolimit-solana-sdk"
+documentation = "https://docs.nolimit.foundation/solana"
+keywords = ["solana", "privacy", "ai", "defi", "mixer"]
+categories = ["cryptography", "api-bindings"]
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "nolimit_solana"
+
+[features]
+default = []
+no-entrypoint = []
+
+[dependencies]
+solana-sdk = "1.18"
+solana-client = "1.18"
+solana-transaction-status = "1.18"
+spl-token = "4.0"
+spl-associated-token-account = "2.3"
+tokio = { version = "1.35", features = ["full"] }
+reqwest = { version = "0.11", features = ["json"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+base64 = "0.21"
+bs58 = "0.5"
+thiserror = "1.0"
+
+[dev-dependencies]
+tokio-test = "0.4"
+
