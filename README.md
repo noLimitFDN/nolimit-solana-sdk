@@ -133,3 +133,4 @@ const status = await client.mixer.getStatus(mix.mixId);
 ## License
 
 MIT - noLimit Foundation
+<!-- v1 -->
